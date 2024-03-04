@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/sim/sim.egg-info
+writing ../../build/sim/sim.egg-info/PKG-INFO
+writing dependency_links to ../../build/sim/sim.egg-info/dependency_links.txt
+writing entry points to ../../build/sim/sim.egg-info/entry_points.txt
+writing requirements to ../../build/sim/sim.egg-info/requires.txt
+writing top-level names to ../../build/sim/sim.egg-info/top_level.txt
+writing manifest file '../../build/sim/sim.egg-info/SOURCES.txt'
+reading manifest file '../../build/sim/sim.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/sim/sim.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jash/ros2_ws2/build/sim/build
+creating /home/jash/ros2_ws2/build/sim/build/lib
+creating /home/jash/ros2_ws2/build/sim/build/lib/sim
+copying sim/__init__.py -> /home/jash/ros2_ws2/build/sim/build/lib/sim
+copying sim/sim0.py -> /home/jash/ros2_ws2/build/sim/build/lib/sim
+running install
+running install_lib
+creating /home/jash/ros2_ws2/install/sim/lib/python3.10/site-packages/sim
+copying /home/jash/ros2_ws2/build/sim/build/lib/sim/__init__.py -> /home/jash/ros2_ws2/install/sim/lib/python3.10/site-packages/sim
+copying /home/jash/ros2_ws2/build/sim/build/lib/sim/sim0.py -> /home/jash/ros2_ws2/install/sim/lib/python3.10/site-packages/sim
+byte-compiling /home/jash/ros2_ws2/install/sim/lib/python3.10/site-packages/sim/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/jash/ros2_ws2/install/sim/lib/python3.10/site-packages/sim/sim0.py to sim0.cpython-310.pyc
+running install_data
+creating /home/jash/ros2_ws2/install/sim/share/ament_index
+creating /home/jash/ros2_ws2/install/sim/share/ament_index/resource_index
+creating /home/jash/ros2_ws2/install/sim/share/ament_index/resource_index/packages
+copying resource/sim -> /home/jash/ros2_ws2/install/sim/share/ament_index/resource_index/packages
+copying package.xml -> /home/jash/ros2_ws2/install/sim/share/sim
+running install_egg_info
+Copying ../../build/sim/sim.egg-info to /home/jash/ros2_ws2/install/sim/lib/python3.10/site-packages/sim-0.0.0-py3.10.egg-info
+running install_scripts
+Installing sim0 script to /home/jash/ros2_ws2/install/sim/lib/sim
+writing list of installed files to '/home/jash/ros2_ws2/build/sim/install.log'

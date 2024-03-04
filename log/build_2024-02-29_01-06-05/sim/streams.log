@@ -1,0 +1,22 @@
+[0.811s] Invoking command in '/home/jash/ros2_ws2/src/sim': PYTHONPATH=/home/jash/ros2_ws2/build/sim/prefix_override:/home/jash/ros2_ws2/install/sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sim build --build-base /home/jash/ros2_ws2/build/sim/build install --record /home/jash/ros2_ws2/build/sim/install.log --single-version-externally-managed
+[0.987s] running egg_info
+[0.989s] writing ../../build/sim/sim.egg-info/PKG-INFO
+[0.989s] writing dependency_links to ../../build/sim/sim.egg-info/dependency_links.txt
+[0.990s] writing entry points to ../../build/sim/sim.egg-info/entry_points.txt
+[0.990s] writing requirements to ../../build/sim/sim.egg-info/requires.txt
+[0.990s] writing top-level names to ../../build/sim/sim.egg-info/top_level.txt
+[0.992s] reading manifest file '../../build/sim/sim.egg-info/SOURCES.txt'
+[0.992s] adding license file 'LICENSE'
+[0.993s] writing manifest file '../../build/sim/sim.egg-info/SOURCES.txt'
+[0.993s] running build
+[0.993s] running build_py
+[0.994s] running install
+[0.994s] running install_lib
+[0.996s] running install_data
+[0.997s] running install_egg_info
+[0.998s] removing '/home/jash/ros2_ws2/install/sim/lib/python3.10/site-packages/sim-0.0.0-py3.10.egg-info' (and everything under it)
+[0.999s] Copying ../../build/sim/sim.egg-info to /home/jash/ros2_ws2/install/sim/lib/python3.10/site-packages/sim-0.0.0-py3.10.egg-info
+[1.000s] running install_scripts
+[1.015s] Installing sim0 script to /home/jash/ros2_ws2/install/sim/lib/sim
+[1.016s] writing list of installed files to '/home/jash/ros2_ws2/build/sim/install.log'
+[1.072s] Invoked command in '/home/jash/ros2_ws2/src/sim' returned '0': PYTHONPATH=/home/jash/ros2_ws2/build/sim/prefix_override:/home/jash/ros2_ws2/install/sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sim build --build-base /home/jash/ros2_ws2/build/sim/build install --record /home/jash/ros2_ws2/build/sim/install.log --single-version-externally-managed

@@ -1,0 +1,38 @@
+[0.968s] Invoking command in '/home/jash/ros2_ws2/src/sim': PYTHONPATH=/home/jash/ros2_ws2/build/sim/prefix_override:/home/jash/ros2_ws2/install/sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sim build --build-base /home/jash/ros2_ws2/build/sim/build install --record /home/jash/ros2_ws2/build/sim/install.log --single-version-externally-managed
+[1.244s] running egg_info
+[1.245s] creating ../../build/sim/sim.egg-info
+[1.246s] writing ../../build/sim/sim.egg-info/PKG-INFO
+[1.247s] writing dependency_links to ../../build/sim/sim.egg-info/dependency_links.txt
+[1.247s] writing entry points to ../../build/sim/sim.egg-info/entry_points.txt
+[1.248s] writing requirements to ../../build/sim/sim.egg-info/requires.txt
+[1.249s] writing top-level names to ../../build/sim/sim.egg-info/top_level.txt
+[1.249s] writing manifest file '../../build/sim/sim.egg-info/SOURCES.txt'
+[1.252s] reading manifest file '../../build/sim/sim.egg-info/SOURCES.txt'
+[1.253s] adding license file 'LICENSE'
+[1.254s] writing manifest file '../../build/sim/sim.egg-info/SOURCES.txt'
+[1.255s] running build
+[1.256s] running build_py
+[1.256s] creating /home/jash/ros2_ws2/build/sim/build
+[1.257s] creating /home/jash/ros2_ws2/build/sim/build/lib
+[1.258s] creating /home/jash/ros2_ws2/build/sim/build/lib/sim
+[1.259s] copying sim/__init__.py -> /home/jash/ros2_ws2/build/sim/build/lib/sim
+[1.262s] copying sim/sim0.py -> /home/jash/ros2_ws2/build/sim/build/lib/sim
+[1.262s] running install
+[1.263s] running install_lib
+[1.266s] creating /home/jash/ros2_ws2/install/sim/lib/python3.10/site-packages/sim
+[1.266s] copying /home/jash/ros2_ws2/build/sim/build/lib/sim/__init__.py -> /home/jash/ros2_ws2/install/sim/lib/python3.10/site-packages/sim
+[1.267s] copying /home/jash/ros2_ws2/build/sim/build/lib/sim/sim0.py -> /home/jash/ros2_ws2/install/sim/lib/python3.10/site-packages/sim
+[1.267s] byte-compiling /home/jash/ros2_ws2/install/sim/lib/python3.10/site-packages/sim/__init__.py to __init__.cpython-310.pyc
+[1.267s] byte-compiling /home/jash/ros2_ws2/install/sim/lib/python3.10/site-packages/sim/sim0.py to sim0.cpython-310.pyc
+[1.267s] running install_data
+[1.267s] creating /home/jash/ros2_ws2/install/sim/share/ament_index
+[1.267s] creating /home/jash/ros2_ws2/install/sim/share/ament_index/resource_index
+[1.267s] creating /home/jash/ros2_ws2/install/sim/share/ament_index/resource_index/packages
+[1.271s] copying resource/sim -> /home/jash/ros2_ws2/install/sim/share/ament_index/resource_index/packages
+[1.272s] copying package.xml -> /home/jash/ros2_ws2/install/sim/share/sim
+[1.272s] running install_egg_info
+[1.272s] Copying ../../build/sim/sim.egg-info to /home/jash/ros2_ws2/install/sim/lib/python3.10/site-packages/sim-0.0.0-py3.10.egg-info
+[1.272s] running install_scripts
+[1.294s] Installing sim0 script to /home/jash/ros2_ws2/install/sim/lib/sim
+[1.295s] writing list of installed files to '/home/jash/ros2_ws2/build/sim/install.log'
+[1.326s] Invoked command in '/home/jash/ros2_ws2/src/sim' returned '0': PYTHONPATH=/home/jash/ros2_ws2/build/sim/prefix_override:/home/jash/ros2_ws2/install/sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sim build --build-base /home/jash/ros2_ws2/build/sim/build install --record /home/jash/ros2_ws2/build/sim/install.log --single-version-externally-managed

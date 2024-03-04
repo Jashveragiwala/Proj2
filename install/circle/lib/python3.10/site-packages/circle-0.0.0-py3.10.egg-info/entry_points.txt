@@ -1,0 +1,4 @@
+[console_scripts]
+circle_drawing = circle.circle_drawing:main
+circle_drawing2 = circle.circle_drawing2:main
+

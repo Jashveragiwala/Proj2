@@ -1,0 +1,5 @@
+[console_scripts]
+circle = circle.circle_drawing:main
+sim0 = sim.sim0:main
+sim1 = sim.sim1:main
+
