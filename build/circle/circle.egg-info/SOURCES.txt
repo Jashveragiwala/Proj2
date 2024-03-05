@@ -11,6 +11,7 @@ setup.py
 circle/__init__.py
 circle/circle_drawing.py
 circle/circle_drawing2.py
+circle/distance.py
 circle/tmu.py
 resource/circle
 test/test_copyright.py
