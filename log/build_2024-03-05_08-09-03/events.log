@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.001235] (circle) JobQueued: {'identifier': 'circle', 'dependencies': OrderedDict()}
+[0.001420] (sim) JobQueued: {'identifier': 'sim', 'dependencies': OrderedDict()}
+[0.001446] (circle) JobStarted: {'identifier': 'circle'}
+[0.093948] (sim) JobStarted: {'identifier': 'sim'}
+[0.099179] (-) TimerEvent: {}
+[0.205432] (-) TimerEvent: {}
+[0.306309] (-) TimerEvent: {}
+[0.406806] (-) TimerEvent: {}
+[0.507222] (-) TimerEvent: {}
+[0.607722] (-) TimerEvent: {}
+[0.708478] (-) TimerEvent: {}
+[0.809455] (-) TimerEvent: {}
+[0.910128] (-) TimerEvent: {}
+[1.011357] (-) TimerEvent: {}
+[1.112538] (-) TimerEvent: {}
+[1.213669] (-) TimerEvent: {}
+[1.314741] (-) TimerEvent: {}
+[1.416682] (-) TimerEvent: {}
+[1.517116] (-) TimerEvent: {}
+[1.622617] (-) TimerEvent: {}
+[1.723587] (-) TimerEvent: {}
+[1.730497] (sim) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/sim', 'build', '--build-base', '/home/jash/ros2_ws2/build/sim/build', 'install', '--record', '/home/jash/ros2_ws2/build/sim/install.log', '--single-version-externally-managed'], 'cwd': '/home/jash/ros2_ws2/src/sim', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_SG:en', 'USER': 'jash', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/jash', 'OLDPWD': '/home/jash', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2308', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jash', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jash', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/jash/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jash-VirtualBox:@/tmp/.ICE-unix/2288,unix/jash-VirtualBox:/tmp/.ICE-unix/2288', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f70e5bd1_dee9_4aaa_96cc_406b37806670', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7H49J2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.142', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jash/ros2_ws2/build/sim', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jash/ros2_ws2/build/sim/prefix_override:/home/jash/ros2_ws2/install/sim/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.762497] (circle) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/circle', 'build', '--build-base', '/home/jash/ros2_ws2/build/circle/build', 'install', '--record', '/home/jash/ros2_ws2/build/circle/install.log', '--single-version-externally-managed'], 'cwd': '/home/jash/ros2_ws2/src/circle', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_SG:en', 'USER': 'jash', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/jash', 'OLDPWD': '/home/jash', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2308', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jash', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jash', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/jash/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jash-VirtualBox:@/tmp/.ICE-unix/2288,unix/jash-VirtualBox:/tmp/.ICE-unix/2288', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f70e5bd1_dee9_4aaa_96cc_406b37806670', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7H49J2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.142', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jash/ros2_ws2/build/circle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jash/ros2_ws2/build/circle/prefix_override:/home/jash/ros2_ws2/install/circle/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.824719] (-) TimerEvent: {}
+[1.927058] (-) TimerEvent: {}
+[2.027814] (-) TimerEvent: {}
+[2.118906] (sim) StdoutLine: {'line': b'running egg_info\n'}
+[2.119939] (sim) StdoutLine: {'line': b'writing ../../build/sim/sim.egg-info/PKG-INFO\n'}
+[2.120060] (sim) StdoutLine: {'line': b'writing dependency_links to ../../build/sim/sim.egg-info/dependency_links.txt\n'}
+[2.120127] (sim) StdoutLine: {'line': b'writing entry points to ../../build/sim/sim.egg-info/entry_points.txt\n'}
+[2.122008] (sim) StdoutLine: {'line': b'writing requirements to ../../build/sim/sim.egg-info/requires.txt\n'}
+[2.122172] (sim) StdoutLine: {'line': b'writing top-level names to ../../build/sim/sim.egg-info/top_level.txt\n'}
+[2.123767] (sim) StdoutLine: {'line': b"reading manifest file '../../build/sim/sim.egg-info/SOURCES.txt'\n"}
+[2.125101] (sim) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.125462] (sim) StdoutLine: {'line': b"writing manifest file '../../build/sim/sim.egg-info/SOURCES.txt'\n"}
+[2.125884] (sim) StdoutLine: {'line': b'running build\n'}
+[2.126061] (sim) StdoutLine: {'line': b'running build_py\n'}
+[2.127488] (sim) StdoutLine: {'line': b'running install\n'}
+[2.127968] (-) TimerEvent: {}
+[2.128491] (sim) StdoutLine: {'line': b'running install_lib\n'}
+[2.130101] (sim) StdoutLine: {'line': b'running install_data\n'}
+[2.130787] (sim) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.132959] (sim) StdoutLine: {'line': b"removing '/home/jash/ros2_ws2/install/sim/lib/python3.10/site-packages/sim-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.134819] (sim) StdoutLine: {'line': b'Copying ../../build/sim/sim.egg-info to /home/jash/ros2_ws2/install/sim/lib/python3.10/site-packages/sim-0.0.0-py3.10.egg-info\n'}
+[2.135008] (sim) StdoutLine: {'line': b'running install_scripts\n'}
+[2.178325] (sim) StdoutLine: {'line': b'Installing circle script to /home/jash/ros2_ws2/install/sim/lib/sim\n'}
+[2.178747] (sim) StdoutLine: {'line': b'Installing sim0 script to /home/jash/ros2_ws2/install/sim/lib/sim\n'}
+[2.178925] (sim) StdoutLine: {'line': b'Installing sim1 script to /home/jash/ros2_ws2/install/sim/lib/sim\n'}
+[2.183903] (sim) StdoutLine: {'line': b"writing list of installed files to '/home/jash/ros2_ws2/build/sim/install.log'\n"}
+[2.200582] (circle) StdoutLine: {'line': b'running egg_info\n'}
+[2.202681] (circle) StdoutLine: {'line': b'writing ../../build/circle/circle.egg-info/PKG-INFO\n'}
+[2.204466] (circle) StdoutLine: {'line': b'writing dependency_links to ../../build/circle/circle.egg-info/dependency_links.txt\n'}
+[2.206433] (circle) StdoutLine: {'line': b'writing entry points to ../../build/circle/circle.egg-info/entry_points.txt\n'}
+[2.206650] (circle) StdoutLine: {'line': b'writing requirements to ../../build/circle/circle.egg-info/requires.txt\n'}
+[2.210939] (circle) StdoutLine: {'line': b'writing top-level names to ../../build/circle/circle.egg-info/top_level.txt\n'}
+[2.211847] (circle) StdoutLine: {'line': b"reading manifest file '../../build/circle/circle.egg-info/SOURCES.txt'\n"}
+[2.218975] (circle) StdoutLine: {'line': b"writing manifest file '../../build/circle/circle.egg-info/SOURCES.txt'\n"}
+[2.219234] (circle) StdoutLine: {'line': b'running build\n'}
+[2.219330] (circle) StdoutLine: {'line': b'running build_py\n'}
+[2.219390] (circle) StdoutLine: {'line': b'copying circle/circle_drawing.py -> /home/jash/ros2_ws2/build/circle/build/lib/circle\n'}
+[2.219448] (circle) StdoutLine: {'line': b'running install\n'}
+[2.219502] (circle) StdoutLine: {'line': b'running install_lib\n'}
+[2.221236] (circle) StdoutLine: {'line': b'copying /home/jash/ros2_ws2/build/circle/build/lib/circle/circle_drawing.py -> /home/jash/ros2_ws2/install/circle/lib/python3.10/site-packages/circle\n'}
+[2.223351] (circle) StdoutLine: {'line': b'byte-compiling /home/jash/ros2_ws2/install/circle/lib/python3.10/site-packages/circle/circle_drawing.py to circle_drawing.cpython-310.pyc\n'}
+[2.226862] (circle) StdoutLine: {'line': b'running install_data\n'}
+[2.228381] (-) TimerEvent: {}
+[2.229318] (circle) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.232391] (circle) StdoutLine: {'line': b"removing '/home/jash/ros2_ws2/install/circle/lib/python3.10/site-packages/circle-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.234457] (circle) StdoutLine: {'line': b'Copying ../../build/circle/circle.egg-info to /home/jash/ros2_ws2/install/circle/lib/python3.10/site-packages/circle-0.0.0-py3.10.egg-info\n'}
+[2.247615] (circle) StdoutLine: {'line': b'running install_scripts\n'}
+[2.263435] (sim) CommandEnded: {'returncode': 0}
+[2.294984] (circle) StdoutLine: {'line': b'Installing circle_drawing script to /home/jash/ros2_ws2/install/circle/lib/circle\n'}
+[2.296052] (circle) StdoutLine: {'line': b'Installing circle_drawing2 script to /home/jash/ros2_ws2/install/circle/lib/circle\n'}
+[2.297387] (circle) StdoutLine: {'line': b"writing list of installed files to '/home/jash/ros2_ws2/build/circle/install.log'\n"}
+[2.329358] (-) TimerEvent: {}
+[2.369321] (sim) JobEnded: {'identifier': 'sim', 'rc': 0}
+[2.386059] (circle) CommandEnded: {'returncode': 0}
+[2.429617] (-) TimerEvent: {}
+[2.488180] (circle) JobEnded: {'identifier': 'circle', 'rc': 0}
+[2.489229] (-) EventReactorShutdown: {}

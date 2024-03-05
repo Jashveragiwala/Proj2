@@ -1,0 +1,27 @@
+[1.077s] Invoking command in '/home/jash/ros2_ws2/src/circle': PYTHONPATH=/home/jash/ros2_ws2/build/circle/prefix_override:/home/jash/ros2_ws2/install/circle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/circle build --build-base /home/jash/ros2_ws2/build/circle/build install --record /home/jash/ros2_ws2/build/circle/install.log --single-version-externally-managed
+[1.304s] running egg_info
+[1.305s] writing ../../build/circle/circle.egg-info/PKG-INFO
+[1.305s] writing dependency_links to ../../build/circle/circle.egg-info/dependency_links.txt
+[1.306s] writing entry points to ../../build/circle/circle.egg-info/entry_points.txt
+[1.306s] writing requirements to ../../build/circle/circle.egg-info/requires.txt
+[1.306s] writing top-level names to ../../build/circle/circle.egg-info/top_level.txt
+[1.308s] reading manifest file '../../build/circle/circle.egg-info/SOURCES.txt'
+[1.308s] writing manifest file '../../build/circle/circle.egg-info/SOURCES.txt'
+[1.309s] running build
+[1.309s] running build_py
+[1.309s] copying circle/circle_drawing.py -> /home/jash/ros2_ws2/build/circle/build/lib/circle
+[1.309s] running install
+[1.309s] running install_lib
+[1.310s] copying /home/jash/ros2_ws2/build/circle/build/lib/circle/circle_drawing.py -> /home/jash/ros2_ws2/install/circle/lib/python3.10/site-packages/circle
+[1.310s] byte-compiling /home/jash/ros2_ws2/install/circle/lib/python3.10/site-packages/circle/circle_drawing.py to circle_drawing.cpython-310.pyc
+[1.311s] /home/jash/ros2_ws2/install/circle/lib/python3.10/site-packages/circle/circle_drawing.py:80: SyntaxWarning: 'tuple' object is not callable; perhaps you missed a comma?
+[1.312s]   (-3.73,0.0885),(-3.73,-0.532),(-3.568,-0.532),(-4.39,-2.43),(-4.866,-2.43),(-4.866,-3.22),(-3.417,-3.22),(-3.417,-2.43),(-3.57,-2.43),(-3.394,-2.126),(-2.626,-2.126),(-2.46,-2.43),(-2.6,-2.43),(-2.6,-3.22),(-1.185,-3.22),(-1.185,-2.43),(-1.49,-2.43),(-2.456,-0.532),(-2.296,-0.532),(-2.296,0.0886),(-3.73,0.086),(-2.997,-1.067),(-2.779,-1.479),(-3.224,-1.475),(-2.997,-1.067)
+[1.312s] running install_data
+[1.312s] running install_egg_info
+[1.313s] removing '/home/jash/ros2_ws2/install/circle/lib/python3.10/site-packages/circle-0.0.0-py3.10.egg-info' (and everything under it)
+[1.319s] Copying ../../build/circle/circle.egg-info to /home/jash/ros2_ws2/install/circle/lib/python3.10/site-packages/circle-0.0.0-py3.10.egg-info
+[1.320s] running install_scripts
+[1.340s] Installing circle_drawing script to /home/jash/ros2_ws2/install/circle/lib/circle
+[1.340s] Installing circle_drawing2 script to /home/jash/ros2_ws2/install/circle/lib/circle
+[1.341s] writing list of installed files to '/home/jash/ros2_ws2/build/circle/install.log'
+[1.391s] Invoked command in '/home/jash/ros2_ws2/src/circle' returned '0': PYTHONPATH=/home/jash/ros2_ws2/build/circle/prefix_override:/home/jash/ros2_ws2/install/circle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/circle build --build-base /home/jash/ros2_ws2/build/circle/build install --record /home/jash/ros2_ws2/build/circle/install.log --single-version-externally-managed
