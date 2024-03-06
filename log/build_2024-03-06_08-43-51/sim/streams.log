@@ -1,0 +1,24 @@
+[1.616s] Invoking command in '/home/jash/ros2_ws2/src/sim': PYTHONPATH=/home/jash/ros2_ws2/build/sim/prefix_override:/home/jash/ros2_ws2/install/sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sim build --build-base /home/jash/ros2_ws2/build/sim/build install --record /home/jash/ros2_ws2/build/sim/install.log --single-version-externally-managed
+[2.033s] running egg_info
+[2.037s] writing ../../build/sim/sim.egg-info/PKG-INFO
+[2.038s] writing dependency_links to ../../build/sim/sim.egg-info/dependency_links.txt
+[2.038s] writing entry points to ../../build/sim/sim.egg-info/entry_points.txt
+[2.039s] writing requirements to ../../build/sim/sim.egg-info/requires.txt
+[2.039s] writing top-level names to ../../build/sim/sim.egg-info/top_level.txt
+[2.044s] reading manifest file '../../build/sim/sim.egg-info/SOURCES.txt'
+[2.044s] adding license file 'LICENSE'
+[2.044s] writing manifest file '../../build/sim/sim.egg-info/SOURCES.txt'
+[2.044s] running build
+[2.045s] running build_py
+[2.045s] running install
+[2.046s] running install_lib
+[2.048s] running install_data
+[2.050s] running install_egg_info
+[2.054s] removing '/home/jash/ros2_ws2/install/sim/lib/python3.10/site-packages/sim-0.0.0-py3.10.egg-info' (and everything under it)
+[2.054s] Copying ../../build/sim/sim.egg-info to /home/jash/ros2_ws2/install/sim/lib/python3.10/site-packages/sim-0.0.0-py3.10.egg-info
+[2.056s] running install_scripts
+[2.096s] Installing circle script to /home/jash/ros2_ws2/install/sim/lib/sim
+[2.098s] Installing sim0 script to /home/jash/ros2_ws2/install/sim/lib/sim
+[2.098s] Installing sim1 script to /home/jash/ros2_ws2/install/sim/lib/sim
+[2.098s] writing list of installed files to '/home/jash/ros2_ws2/build/sim/install.log'
+[2.220s] Invoked command in '/home/jash/ros2_ws2/src/sim' returned '0': PYTHONPATH=/home/jash/ros2_ws2/build/sim/prefix_override:/home/jash/ros2_ws2/install/sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sim build --build-base /home/jash/ros2_ws2/build/sim/build install --record /home/jash/ros2_ws2/build/sim/install.log --single-version-externally-managed
