@@ -1,0 +1,22 @@
+[1.818s] Invoking command in '/home/jash/ros2_ws2/src/circle': PYTHONPATH=/home/jash/ros2_ws2/build/circle/prefix_override:/home/jash/ros2_ws2/install/circle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/circle build --build-base /home/jash/ros2_ws2/build/circle/build install --record /home/jash/ros2_ws2/build/circle/install.log --single-version-externally-managed
+[2.284s] running egg_info
+[2.285s] writing ../../build/circle/circle.egg-info/PKG-INFO
+[2.287s] writing dependency_links to ../../build/circle/circle.egg-info/dependency_links.txt
+[2.288s] writing entry points to ../../build/circle/circle.egg-info/entry_points.txt
+[2.289s] writing requirements to ../../build/circle/circle.egg-info/requires.txt
+[2.289s] writing top-level names to ../../build/circle/circle.egg-info/top_level.txt
+[2.300s] reading manifest file '../../build/circle/circle.egg-info/SOURCES.txt'
+[2.301s] writing manifest file '../../build/circle/circle.egg-info/SOURCES.txt'
+[2.301s] running build
+[2.301s] running build_py
+[2.301s] running install
+[2.301s] running install_lib
+[2.301s] running install_data
+[2.301s] running install_egg_info
+[2.304s] removing '/home/jash/ros2_ws2/install/circle/lib/python3.10/site-packages/circle-0.0.0-py3.10.egg-info' (and everything under it)
+[2.311s] Copying ../../build/circle/circle.egg-info to /home/jash/ros2_ws2/install/circle/lib/python3.10/site-packages/circle-0.0.0-py3.10.egg-info
+[2.312s] running install_scripts
+[2.345s] Installing circle_drawing script to /home/jash/ros2_ws2/install/circle/lib/circle
+[2.345s] Installing circle_drawing2 script to /home/jash/ros2_ws2/install/circle/lib/circle
+[2.345s] writing list of installed files to '/home/jash/ros2_ws2/build/circle/install.log'
+[2.410s] Invoked command in '/home/jash/ros2_ws2/src/circle' returned '0': PYTHONPATH=/home/jash/ros2_ws2/build/circle/prefix_override:/home/jash/ros2_ws2/install/circle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/circle build --build-base /home/jash/ros2_ws2/build/circle/build install --record /home/jash/ros2_ws2/build/circle/install.log --single-version-externally-managed
