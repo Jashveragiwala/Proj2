@@ -1,25 +1,29 @@
 #!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
-from geometry_msgs.msg import Twist
+from std_msgs.msg import Float64MultiArray
 
-class RVizStraightLinePublisher(Node):
+class CentroidSubscriber(Node):
     def __init__(self):
-        super().__init__('rviz_straight_line_publisher')
-        self.publisher = self.create_publisher(Twist, '/cmd_vel', 10)
-        self.timer = self.create_timer(1.0, self.publish_twist_message)
+        super().__init__('centroid_subscriber')
+        self.subscription = self.create_subscription(
+            Float64MultiArray,
+            'centroid_topic',
+            self.centroid_callback,
+            10)
 
-    def publish_twist_message(self):
-        twist_msg = Twist()
-        twist_msg.linear.x = -0.2  # Set the linear velocity for a straight line
-
-        self.publisher.publish(twist_msg)
+    def centroid_callback(self, msg):
+        centroids = []
+        for i in range(0, len(msg.data), 2):
+            centroids.append((msg.data[i], msg.data[i+1]))
+        print("Received centroids:", centroids)
 
 def main(args=None):
     rclpy.init(args=args)
-    rviz_straight_line_publisher = RVizStraightLinePublisher()
-    rclpy.spin(rviz_straight_line_publisher)
-    rviz_straight_line_publisher.destroy_node()
+    centroid_subscriber = CentroidSubscriber()
+    rclpy.spin(centroid_subscriber)
+
+    centroid_subscriber.destroy_node()
     rclpy.shutdown()
 
 if __name__ == '__main__':
